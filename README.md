@@ -16,6 +16,10 @@ GO プロジェクト
 ### ビルド ###
 `` $ go build file.go ``
 
+### 実行 ###
+`` $ コンパイル済みファイル名 引数... ``
+ex) sample aaa
+
 ライセンス
 ----------
 Copyright &copy; 2014 pollseed
