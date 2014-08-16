@@ -1,0 +1,2 @@
+21 9 * * * /usr/local/script/test.sh
+31 10 * * * /usr/local/script/test.sh
