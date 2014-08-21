@@ -33,6 +33,12 @@ JavaによるAPIのラッパークラスを作成して公開する予定
 ====================
 RubyによるUtil, Helperクラスなどを作成していく予定
 
+05 JavaScript プロジェクト
+====================
+ひとまず、テスト用のやつ。特に意味はないが、地味に使いたいから作っただけ。
+
+[JavaScriptのテスト用index](http://bl.ocks.org/pollseed/raw/d5bc36447f0d00427402/)
+
 conf
 ====================
 crontab
