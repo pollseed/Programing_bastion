@@ -65,6 +65,11 @@
 	function showCount(str) {
 		$('#word-count-result').text("result : " + str.length + "文字");
 	}
+
+	function nikkei() {
+		$('#opening')
+
+	}
 </script>
 </head>
 <body>
@@ -93,5 +98,20 @@
 	<textarea id="word-count" rows="3" cols="100" onkeyup="showCount(value)"></textarea>
 	<br>
 	<div id="word-count-result"></div>
+
+	<hr>
+	<h3>仮、日経平均</h3>
+	<input type="text" id="opening" value=""/>
+	<input type="text" id="high" value=""/>
+	<input type="text" id="low" value=""/>
+	<input type="text" id="closing" value=""/>
+	<input type="button" value="go" onclick="nikkei()"/>
+	<br>
+	gugd
+	<div id="gugd"></div>
+	youseninsen
+	<div id="pn"></div>
+	hige
+	<div id="hige"></div>
 </body>
 </html>
