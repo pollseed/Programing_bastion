@@ -36,7 +36,7 @@ public class TwitterAPI {
             try {
                 requestToken = twitter.getOAuthRequestToken("/");
             } catch (TwitterException e) {
-                System.out.println(e);
+                throwException(e);
             }
         }
         return requestToken;
@@ -53,7 +53,7 @@ public class TwitterAPI {
             AccessToken accessToken = twitter.getOAuthAccessToken(requestToken, oauthVerifier);
             return accessToken;
         } catch (TwitterException e) {
-            System.out.println(e);
+            throwException(e);
         }
     }
 }

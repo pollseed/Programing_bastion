@@ -1,0 +1,7 @@
+cd GIT_PATH
+git checkout master
+git pull
+bundle install
+precompile -> ?
+cd APP_PATH
+rails s
