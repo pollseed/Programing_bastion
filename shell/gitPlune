@@ -1,7 +1,11 @@
+
 cd GIT_PATH
 git checkout master
 git pull
+
+#shell
+
 bundle install
-precompile -> ?
+precompil　e -> ?
 cd APP_PATH
 rails s
