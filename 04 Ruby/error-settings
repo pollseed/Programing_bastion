@@ -1,3 +1,31 @@
+**********CAPISTRANO***********
+/usr/local/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require': cannot load such file -- capistrano/setup (LoadError)
+        from /usr/local/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:152:in `require'
+        from Capfile:2:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `instance_eval'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:180:in `load_from_file'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:89:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `block in load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `block in load_recipes'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `load_recipes'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:31:in `execute!'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:14:in `execute'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/bin/cap:4:in `<top (required)>'
+        from /usr/local/bin/cap:23:in `load'
+        from /usr/local/bin/cap:23:in `<main>'
+
+bugfix)
+
+
+
+
+**********UNICORN***********
+
 /home/admin/bastion/config/unicorn.rb:4:in `reload': undefined method `worker_directory' for #<Unicorn::Configurator:0x34fe414> (NoMethodError)
         from /usr/local/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/configurator.rb:75:in `instance_eval'
         from /usr/local/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/configurator.rb:75:in `reload'
