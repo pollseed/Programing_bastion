@@ -20,8 +20,166 @@
         from /usr/local/bin/cap:23:in `<main>'
 
 bugfix)
+コメントアウト
 
+/usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/variables.rb:122:in `method_missing_with_variables': undefined method `lock' for #<Capistrano::Configuration:0x1814240> (NoMethodError)
+        from ./config/deploy.rb:4:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `instance_eval'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:180:in `load_from_file'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:89:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `block in load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `load'
+        from Capfile:5:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `instance_eval'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:180:in `load_from_file'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:89:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `block in load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `block in load_recipes'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `load_recipes'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:31:in `execute!'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:14:in `execute'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/bin/cap:4:in `<top (required)>'
+        from /usr/local/bin/cap:23:in `load'
+        from /usr/local/bin/cap:23:in `<main>'
 
+bugfix)
+コメントアウト
+
+/usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/variables.rb:122:in `method_missing_with_variables': undefined local variable or method `user' for #<Capistrano::Configuration:0x1cdc2dc> (NameError)
+        from ./config/deploy.rb:24:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `instance_eval'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:180:in `load_from_file'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:89:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `block in load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `load'
+        from Capfile:5:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `instance_eval'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:180:in `load_from_file'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:89:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `block in load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `block in load_recipes'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `load_recipes'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:31:in `execute!'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:14:in `execute'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/bin/cap:4:in `<top (required)>'
+        from /usr/local/bin/cap:23:in `load'
+        from /usr/local/bin/cap:23:in `<main>'
+
+bugfix)
+set :user, "bastion"に修正
+
+/usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb 60行目を以下に修正
+local_host = ServerDefinition.new("127.0.0.1", :user => server.user, :port => gateway_for(server).open(server.host, server.port || @options[:ssh_options][:port] || 22))
+
+/usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/callbacks.rb:105:in `on': please specify only a task name or a block, but not both (ArgumentError)
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/callbacks.rb:67:in `after'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/namespaces.rb:191:in `method_missing'
+        from ./config/deploy.rb:62:in `block in load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/namespaces.rb:76:in `instance_eval'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/namespaces.rb:76:in `namespace'
+        from ./config/deploy.rb:50:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `instance_eval'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:180:in `load_from_file'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:89:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `block in load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `load'
+        from Capfile:5:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `instance_eval'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:93:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:180:in `load_from_file'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:89:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `block in load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/loading.rb:86:in `load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `block in load_recipes'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:65:in `load_recipes'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:31:in `execute!'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:14:in `execute'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/bin/cap:4:in `<top (required)>'
+        from /usr/local/bin/cap:23:in `load'
+        from /usr/local/bin/cap:23:in `<main>'
+
+bugfix)
+コメントアウトした
+
+  * 2014-08-28 16:43:53 executing `deploy:setup'
+  * executing "mkdir -p /home/bastion/production /home/bastion/production/releases /home/bastion/production/shared /home/bastion/production/shared/system /home/bastion/production/shared/log /home/bastion/production/shared/pids"
+    servers: ["example.com"]
+connection failed for: example.com (Errno::ENETUNREACH: Network is unreachable - connect(2) for "example.com" port 22)
+
+dealing)
+port:22 => port:80に変更
+
+  * 2014-08-28 17:05:50 executing `deploy:setup'
+  * executing "mkdir -p /home/admin/production /home/admin/production/releases /home/admin/production/shared /home/admin/production/shared/system /home/admin/production/shared/log /home/admin/production/shared/pids"
+    servers: ["example.com"]
+connection failed for: example.com (Net::SSH::Disconnect: connection closed by remote host)
+
+dealing)
+set :gateway, "example.com"を追加した
+
+/usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/server_version.rb:50:in `rescue in block (2 levels) in negotiate!': connection closed by remote host (Net::SSH::Disconnect)
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/server_version.rb:46:in `block (2 levels) in negotiate!'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/server_version.rb:45:in `loop'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/server_version.rb:45:in `block in negotiate!'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/server_version.rb:43:in `loop'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/server_version.rb:43:in `negotiate!'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/server_version.rb:32:in `initialize'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:84:in `new'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:84:in `block in initialize'
+        from /usr/local/lib/ruby/2.1.0/timeout.rb:76:in `timeout'
+        from /usr/local/lib/ruby/2.1.0/timeout.rb:127:in `timeout'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:84:in `initialize'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `new'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `start'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/net-ssh-gateway-1.2.0/lib/net/ssh/gateway.rb:74:in `initialize'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:47:in `new'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:47:in `block in add_gateway'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/ssh.rb:87:in `connection_strategy'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:46:in `add_gateway'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:40:in `initialize'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:112:in `new'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:112:in `connection_factory'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:126:in `establish_connections_to'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:196:in `block in execute_on_servers'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:194:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:194:in `each_slice'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/connections.rb:194:in `execute_on_servers'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/actions/invocation.rb:196:in `run_tree'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/actions/invocation.rb:155:in `run'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/namespaces.rb:191:in `method_missing'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/recipes/deploy.rb:220:in `block (2 levels) in load'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/execution.rb:138:in `instance_eval'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/execution.rb:138:in `invoke_task_directly'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/callbacks.rb:25:in `invoke_task_directly_with_callbacks'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/execution.rb:89:in `execute_task'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/configuration/execution.rb:101:in `find_and_execute_task'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:46:in `block in execute_requested_actions'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:45:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:45:in `execute_requested_actions'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/help.rb:19:in `execute_requested_actions_with_help'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:34:in `execute!'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/lib/capistrano/cli/execute.rb:14:in `execute'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/capistrano-2.15.5/bin/cap:4:in `<top (required)>'
+        from /usr/local/bin/cap:23:in `load'
+        from /usr/local/bin/cap:23:in `<main>'
+
+おかしいので、さっきのロールバック
 
 
 **********UNICORN***********
