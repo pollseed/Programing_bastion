@@ -181,6 +181,37 @@ set :gateway, "example.com"を追加した
 
 おかしいので、さっきのロールバック
 
+→完全ローカルで
+bundle install 
+soacmini:bastion shn$ gem install libv8 -v '3.3.10.4'
+Building native extensions.  This could take a while...
+ERROR:  Error installing libv8:
+        ERROR: Failed to build gem native extension.
+
+    /usr/local/Cellar/ruby/2.1.1/bin/ruby extconf.rb
+Checking for Python...*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+        --with-opt-dir
+        --with-opt-include
+        --without-opt-include=${opt-dir}/include
+        --with-opt-lib
+        --without-opt-lib=${opt-dir}/lib
+        --with-make-prog
+        --without-make-prog
+        --srcdir=.
+        --curdir
+        --ruby=/usr/local/Cellar/ruby/2.1.1/bin/ruby
+Unable to build libv8: Python 3.x is unsupported by V8!
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/libv8-3.3.10.4 for inspection.
+Results logged to /usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0/libv8-3.3.10.4/gem_make.out
+
 
 **********UNICORN***********
 
