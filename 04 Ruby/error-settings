@@ -212,6 +212,9 @@ extconf failed, exit code 1
 Gem files will remain installed in /usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/libv8-3.3.10.4 for inspection.
 Results logged to /usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0/libv8-3.3.10.4/gem_make.out
 
+bugfix)
+$ bundle update
+$ bundle install
 
 **********UNICORN***********
 
