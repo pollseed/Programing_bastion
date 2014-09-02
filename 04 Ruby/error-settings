@@ -216,6 +216,17 @@ bugfix)
 $ bundle update
 $ bundle install
 
+cap aborted!
+LoadError: cannot load such file -- deploy
+/Users/shn/develop/workspace/bitbucket/bastion/Capfile:3:in `load'
+/Users/shn/develop/workspace/bitbucket/bastion/Capfile:3:in `<top (required)>'
+(See full trace by running task with --trace)
+
+capistranoのバージョンが複数あった
+$ gem cleanup
+それでも消えない物をuninstallした
+
+
 **********UNICORN***********
 
 /home/admin/bastion/config/unicorn.rb:4:in `reload': undefined method `worker_directory' for #<Unicorn::Configurator:0x34fe414> (NoMethodError)
