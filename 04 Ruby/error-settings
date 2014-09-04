@@ -1,3 +1,111 @@
+**********DEPLOY**************
+ ** [out :: example.com] /home/root/production/shared/bundle/ruby/2.1.0/extensions/x86-linux/2.1.0-static/libv8-3.16.14.3
+ ** [out :: example.com] /home/root/production/shared/bundle/ruby/2.1.0/extensions/x86-linux/2.1.0-static/libv8-3.16.14.3
+ ** [out :: example.com] Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+ ** [out :: example.com]
+ ** [out :: example.com] /usr/local/bin/ruby -r ./siteconf20140829-15029-18w81c2.rb extconf.rb
+ ** [out :: example.com] creating Makefile
+ ** [out :: example.com] Compiling v8 for ia32
+ ** [out :: example.com] Using python 2.7.8
+ ** [out :: example.com] Using compiler: /usr/bin/g++
+ ** [out :: example.com] Traceback (most recent call last):
+ ** [out :: example.com] File "../../tools/js2c.py", line 36, in <module>
+ ** [out :: example.com] import bz2
+ ** [out :: example.com] ImportError: No module named bz2
+ ** [out :: example.com] gmake[1]: *** [/home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj/gen/libraries.cc] エラー 1
+ ** [out :: example.com] gmake: *** [ia32.release] エラー 2
+ ** [out :: example.com] GYP_GENERATORS=make \
+ ** [out :: example.com] build/gyp/gyp --generator-output="out" build/all.gyp \
+ ** [out :: example.com] -Ibuild/standalone.gypi --depth=. \
+ ** [out :: example.com] -Dv8_target_arch=ia32 \
+ ** [out :: example.com] -S.ia32  -Dv8_enable_backtrace=1 -Dv8_can_use_vfp2_instructions=true -Darm_fpu=vfpv2 -Dv8_can_use_vfp3_instructions=true -Darm_fpu=vfpv3
+ ** [out :: example.com] gmake[1]: ディレクトリ `/home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out' に入ります
+ ** [out :: example.com] CXX(target) /home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj.target/preparser_lib/src/allocation.o
+
+
+ /usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/vendor/gyp/tools
+Building native extensions.  This could take a while...
+/usr/local/lib/ruby/gems/2.1.0/extensions/x86-linux/2.1.0-static/libv8-3.16.14.3
+/usr/local/lib/ruby/gems/2.1.0/extensions/x86-linux/2.1.0-static/libv8-3.16.14.3
+ERROR:  Error installing therubyracer:
+        ERROR: Failed to build gem native extension.
+
+    /usr/local/bin/ruby -r ./siteconf20140829-28305-nwgwvp.rb extconf.rb
+creating Makefile
+Compiling v8 for ia32
+Using python 2.7.8
+Using compiler: /usr/bin/g++
+Traceback (most recent call last):
+  File "../../tools/js2c.py", line 36, in <module>
+    import bz2
+ImportError: No module named bz2
+gmake[1]: *** [/usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj/gen/libraries.cc] エラー 1
+gmake: *** [ia32.release] エラー 2
+GYP_GENERATORS=make \
+        build/gyp/gyp --generator-output="out" build/all.gyp \
+                      -Ibuild/standalone.gypi --depth=. \
+                      -Dv8_target_arch=ia32 \
+                      -S.ia32  -Dv8_enable_backtrace=1 -Dv8_can_use_vfp2_instructions=true -Darm_fpu=vfpv2 -Dv8_can_use_vfp3_instructions=true -Darm_fpu=vfpv3
+gmake[1]: ディレクトリ `/usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out' に入ります
+  CXX(target) /usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj.target/preparser_lib/src/allocation.o
+
+
+  CXX(target) /usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj.target/v8_base/src/platform-posix.o
+  AR(target) /usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj.target/tools/gyp/libv8_base.a
+  ACTION tools_gyp_v8_gyp_js2c_target_js2c /usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj/gen/libraries.cc
+gmake[1]: ディレクトリ `/usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out' から出ます
+/usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/ext/libv8/location.rb:36:in `block in verify_installation!': libv8 did not install properly, expected binary v8 archive '/usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj.target/tools/gyp/libv8_snapshot.a'to exist, but it was not found (Libv8::Location::Vendor::ArchiveNotFound)
+        from /usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/ext/libv8/location.rb:35:in `each'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/ext/libv8/location.rb:35:in `verify_installation!'
+        from /usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3/ext/libv8/location.rb:26:in `install!'
+        from extconf.rb:7:in `<main>'
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /usr/local/lib/ruby/gems/2.1.0/gems/libv8-3.16.14.3 for inspection.
+Results logged to /usr/local/lib/ruby/gems/2.1.0/extensions/x86-linux/2.1.0-static/libv8-3.16.14.3/gem_make.out
+Gems updated: libv8 libv8
+
+
+yumしないといけない
+Python build finished, but the necessary bits to build these modules were not found:
+_tkinter           bsddb185           gdbm
+sunaudiodev
+
+ bugfix)
+ yumしたあと、サイドpythonをconfigureしてmake installで解決
+ →gem update && gem cleanup
+ で完了 
+ ~~~~~~
+
+
+  ** [out :: example.com] AR(target) /home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj.target/tools/gyp/libv8_base.a
+ ** [out :: example.com] ACTION tools_gyp_v8_gyp_js2c_target_js2c /home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj/gen/libraries.cc
+ ** [out :: example.com] gmake[1]: ディレクトリ `/home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out' から出ます
+ ** [out :: example.com] /home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/ext/libv8/location.rb:36:in `block in verify_installation!': libv8 did not install properly, expected binary v8 archive '/home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/vendor/v8/out/ia32.release/obj.target/tools/gyp/libv8_snapshot.a'to exist, but it was not found (Libv8::Location::Vendor::ArchiveNotFound)
+ ** [out :: example.com] from /home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/ext/libv8/location.rb:35:in `each'
+ ** [out :: example.com] from /home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/ext/libv8/location.rb:35:in `verify_installation!'
+ ** [out :: example.com] from /home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3/ext/libv8/location.rb:26:in `install!'
+ ** [out :: example.com] from extconf.rb:7:in `<main>'
+ ** [out :: example.com]
+ ** [out :: example.com] extconf failed, exit code 1
+ ** [out :: example.com]
+ ** [out :: example.com] Gem files will remain installed in /home/root/production/shared/bundle/ruby/2.1.0/gems/libv8-3.16.14.3 for inspection.
+ ** [out :: example.com] Results logged to /home/root/production/shared/bundle/ruby/2.1.0/extensions/x86-linux/2.1.0-static/libv8-3.16.14.3/gem_make.out
+ ** [out :: example.com] An error occurred while installing libv8 (3.16.14.3), and Bundler cannot
+ ** [out :: example.com] continue.
+ ** [out :: example.com] Make sure that `gem install libv8 -v '3.16.14.3'` succeeds before bundling.
+    command finished in 366147ms
+*** [deploy:update_code] rolling back
+  * executing "rm -rf /home/root/production/releases/20140902181510; true"
+    servers: ["example.com"]
+    [example.com] executing command
+    command finished in 173ms
+failed: "sh -c 'cd /home/root/production/releases/20140902181510 && bundle install --gemfile /home/root/production/releases/20140902181510/Gemfile --path /home/root/production/shared/bundle --deployment --quiet --without development test'" on example.com
+
+bugfix)
+
+
 **********CAPISTRANO***********
 /usr/local/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require': cannot load such file -- capistrano/setup (LoadError)
         from /usr/local/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
@@ -182,7 +290,7 @@ set :gateway, "example.com"を追加した
 おかしいので、さっきのロールバック
 
 →完全ローカルで
-bundle install 
+bundle install
 soacmini:bastion shn$ gem install libv8 -v '3.3.10.4'
 Building native extensions.  This could take a while...
 ERROR:  Error installing libv8:
