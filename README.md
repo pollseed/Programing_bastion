@@ -1,5 +1,6 @@
 01 GO プロジェクト
 =============================
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pollseed/Programing_bastion?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 このプロジェクトでは、GO言語によるテストソースコードを書きます。  
 当プロジェクトは、勉強会・ハッカソンを目的とした利用で用います。  
 
